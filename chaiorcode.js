@@ -83,6 +83,8 @@ function newGame(){
      prevGuess = [];
      numGuess = 1
      guessSolt.innerHTML ='';
+      loworhi.innerHTML ='';
+
      remaining.innerHTML=`${11-numGuess}`
      userInput.removeAttribute('disabled')
      startOver.removeChild(p);
