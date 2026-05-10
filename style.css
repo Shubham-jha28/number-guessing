@@ -1,0 +1,134 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 400px;
+  max-width: 750px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color:  #1f1f1f;
+}
+
+.lastResult {
+  color: white;
+  padding: 7px;
+}
+
+.guesses {
+  color: white;
+  padding: 7px;
+}
+
+button {
+  background-color: #141414;
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 30px;
+  border-style: none;
+  margin-top: 30px;
+  /* margin-left: 50px; */
+}
+
+#subt {
+  background-color:aqua;
+  color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight : bold;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 50px;
+  /* margin-left: 75px; */
+}
+#subt:hover{
+  background-color: #09dc5d;
+  box-shadow: 0 0 10px aqua;
+  transform : scale(1.1);
+}
+
+#guessField {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0d1117;
+  color: #ede5e5;
+  
+  width:  250px;
+  height: 50px;
+  font-size: 30px;
+  border-style: none;
+  margin-top: 25px;
+
+  /* margin-left: 50px; */
+  border: 5px solid #119d9d;
+  text-align: center;
+}
+#guessField-focus{
+  border-color: #00d2ff;
+  box-shadow: 0 0 10px #00d2ff;
+  background-color: #212121;
+}
+     
+
+#guess {
+  
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* margin-left: 90px; */
+  margin-top: 120px;
+  color:orange;
+}
+ 
+
+.guesses {
+   
+  color: #ccff00;
+}
+
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 450px;
+  height: 750px;
+  background-color: #161b22;
+  color: #fff;
+  font-size: 25px;
+}
+
+h1 {
+  background-color: #161616;
+
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  color: #efecf0;
+  font-size: 16px;
+  text-align: center;
+}
+.lastResult{
+  color: rgb(235, 229, 229);
+  font-size: large;
+  font-weight: 500;
+}
+.newgame{
+  background-color: rgb(219, 219, 224);
+}
+.lowOrHi{
+    color: orange;
+}
+#newGame{
+  background-color: #212121;
+  color: #ffffff;
+  padding :  5px 10px;
+  border-radius: 10px;
+  cursor : pointer;
+  border : 2px solid white;
+  display : inline-block
+}
